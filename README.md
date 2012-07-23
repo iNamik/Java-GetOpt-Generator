@@ -1,7 +1,7 @@
 Java GetOpt Generator
 =====================
 
-** Generate a command-line-argument parser & config class from an XML description file**
+**Generate a command-line-argument parser & config class from an XML description file**
 
 DESCRIPTION
 -----------
