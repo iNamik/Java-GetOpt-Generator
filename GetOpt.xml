@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is the actual XML configuration used to build GetOpt Generator -->
+<getopt>
+	<options>
+		<!-- xml file -->
+		<option name="xml-file" short="x" type="input-file" required="yes"/>
+
+		<!-- java dir -->
+		<option name="java dir" short="j" type="output-dir" required="yes"/>
+
+		<!-- exe class -->
+		<option name="exe_class" short="e" type="string" required="yes"/>
+
+		<!-- main class -->
+		<option name="main-class" short="m" type="string" required="yes"/>
+
+		<!-- config class -->
+		<option name="config class" short="c" type="string" required="yes"/>
+	</options>
+</getopt>

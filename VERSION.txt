@@ -1,0 +1,95 @@
+iNamik GetOpt v@build.version@ (@build.date@)
+
+Version History
+===============
+
+Changes in v0.81.2
+
+	* Initial GitHub Commit
+
+	* Fleshed-out README
+
+	* Updated dpenedant JAR verions to match iNamik Template Engine
+
+Changes in v0.81.1
+
+	*	Fixed version number in VERSION.txt  v0.81.0 was mismarked as v0.80.1
+
+Changes in v0.81.0
+
+	*	Modified code to automatically add "--help | -?" options so they are
+		no longer required to apear within your XML, unless you want to define
+		another option for help (say, '-h')
+
+	*	Updated --help section of main template
+
+	*	Small changes to VERSION.txt
+
+	*	Small changes to TODO.txt
+
+	*	Added eclipse launcher to test help
+
+Changes in v0.80.0
+
+	*	Rewrote the project to use the iNamik Template Engine instead of the
+		iNamik PScript language that it used to use.  I verified that the
+		generated code was identical to the previous version, minus
+		unneeded whitespace.
+
+	*	Moved source from CVS to SVN - I did not migrate the previous
+		versions to SVN.  The SVN version will start at 0.80.0
+
+	*	Bumped version to 0.80.0 in preparation for release on Freshmeat.net
+
+	*	Fixed a couple of bugs in the javaID util methods
+
+	*	Added .sh and .bat scripts to launch GetOpt from the command line
+
+	*	Added build system
+
+	*	Added test folder
+
+	*	Moved TODO section from VERSION.txt into TODO.txt
+
+Changes in v0.7.0
+
+	*	GetOpt was importing/using the Config class from the test package.
+
+	*	Fixed bug in build.xml
+
+	*	Now Supports long-opts behind '-' or '--'
+
+	*	Now Supports multiple shorts behind a single '-'
+
+	*	Now Supports no space between option and value
+
+	*	Now Supports operands
+
+	*	XML "name" field now supports " ", "_" or "-" as logical
+		word seperators.
+
+Changes in v0.6.1
+
+	*	GetOpt now officially eats its own dog food!
+		The command-line parser and config classes are now generated
+		by GetOpt itself.
+
+	*	Added "Built using iNamik GetOpt" comment to generated classes
+
+	*	Added Main-Class to jar manifest
+
+Changes in v0.6.0
+
+	*	Added build system
+
+	*	Added validation of "required" fields - Ensures that they are not null.
+
+	*	Added validation of "input-file" fields - Verifies that the file exists.
+
+	*	Added validation of "input-dir" fields - Verifies that the dir exists.
+
+	*	Made config.dirExists and config.fileExists public and static
+
+Changes in v0.5.0
+
+	*	All development up to this point :)

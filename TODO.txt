@@ -1,0 +1,14 @@
+To Do
+=====
+
+	* Implement minOccurs/maxOccurs options (started)
+
+	* Express/Enforce inter-option relationships
+
+	* Support multiple occurrences of an option (i.e. 'list' type)
+
+	* Support name-value pairs (i.e. 'map' type)
+
+	* Named operands
+
+	* Create a better '--help' screen
